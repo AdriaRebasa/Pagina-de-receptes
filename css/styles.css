@@ -5,20 +5,17 @@ body {
 header {
     background-color: rgb(234, 186, 124);
     width: 100%;
-    height: 50px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav {
-    display: flex;
-    align-items: center;
+    display: flex; 
     justify-content: left;
 }
 
-.central {
-    margin-top: auto;
-}
 
 .imatgefons {
     background-image: url("/imatges/fons.jpg");
@@ -26,4 +23,12 @@ nav {
     background-size: cover;
     height: 300px;
     width: 100%;
+}
+
+.divcentrat{
+    position: relative;
+    top: 25%;
+    height: 50%;
+    bottom: 25%;
+    left: 50px;
 }
