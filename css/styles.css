@@ -1,0 +1,23 @@
+body{
+    margin: 0%;
+}
+
+header{
+    background-color: rgb(234, 186, 124);
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.dreta{
+    margin-top: auto;
+    justify-content: right;
+}
