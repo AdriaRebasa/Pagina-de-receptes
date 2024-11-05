@@ -32,24 +32,28 @@ section{
 }
 
 article{
-    width: 300px;
+    width: 700px;
     margin: 20px;
 }
 
-label{
+input{
     height: 30px;
-    width: max-content;
+    width: 300px;
     border-radius: 20px;
+    background-color: transparent;
 }
+
+::placeholder { color: rgb(0, 0, 0); }
 
 button{
     height: min-content;
-    border-radius: 20px;
+    border-radius: 50px;
+    width: 100px;
 }
 
 .tamany{
-    width: 250px;
-    margin-left: 20px;
+    width: 400px;
+    left: 70px;
 }
 
 .capsagmail{
@@ -58,6 +62,8 @@ button{
     margin-left:50px ;
     margin-right: 50px;
     align-items: center;
+    height: 150px;
+    justify-content: space-around;
 }
 
 .imatgefons {
@@ -84,6 +90,10 @@ button{
     text-align: center;
     border-color: rgb(234, 186, 124);
     color: rgb(234, 186, 124);
+}
+
+.left{
+    left: 2px;
 }
 
 
