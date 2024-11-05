@@ -36,6 +36,30 @@ article{
     margin: 20px;
 }
 
+label{
+    height: 30px;
+    width: max-content;
+    border-radius: 20px;
+}
+
+button{
+    height: min-content;
+    border-radius: 20px;
+}
+
+.tamany{
+    width: 250px;
+    margin-left: 20px;
+}
+
+.capsagmail{
+    background-color:rgb(186, 105, 105);
+    border-radius: 30px;
+    margin-left:50px ;
+    margin-right: 50px;
+    align-items: center;
+}
+
 .imatgefons {
     background-image: url("/imatges/fons.jpg");
     background-repeat: no-repeat;
