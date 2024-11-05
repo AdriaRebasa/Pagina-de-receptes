@@ -32,3 +32,13 @@ nav {
     bottom: 25%;
     left: 50px;
 }
+
+.redo{
+    border-radius: 30px;
+    border: solid;
+    padding-inline: 5px;
+    width: 70px;
+    text-align: center;
+    border-color: rgb(234, 186, 124);
+    color: rgb(234, 186, 124);
+}
