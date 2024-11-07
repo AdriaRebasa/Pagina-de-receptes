@@ -26,11 +26,6 @@ a{
     text-decoration: none;
 }
 
-section{
-    display: flex;
-    justify-content: space-between;
-}
-
 article{
     width: 700px;
     margin: 20px;
@@ -51,11 +46,6 @@ button{
     width: 100px;
 }
 
-.tamany{
-    width: 400px;
-    left: 70px;
-}
-
 .capsagmail{
     background-color:rgb(186, 105, 105);
     border-radius: 30px;
@@ -63,9 +53,16 @@ button{
     margin-right: 50px;
     align-items: center;
     height: 150px;
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
 }
 
+.tamany{
+    width: 400px;
+    left: 70px;
+    margin-left: 180px;
+    padding-left: 10px;
+}
 .imatgefons {
     background-image: url("/imatges/fons.jpg");
     background-repeat: no-repeat;
@@ -93,8 +90,34 @@ button{
 }
 
 .left{
-    left: 2px;
+    margin-right: 170px;
 }
 
+.biel{
+    background-image: url("/imatges/fondo.jpg");
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 600px;
+    position: relative;
+}
 
+.abaix{
+    position: absolute;
+    bottom: 6px;
+    left: 10px;
+}
 
+.titol{
+    left: 15px;
+    margin: 3px;
+    position: relative;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.gros{
+    font-size: 30px;
+}
