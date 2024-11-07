@@ -41,9 +41,14 @@ input{
 ::placeholder { color: rgb(0, 0, 0); }
 
 button{
-    height: min-content;
+    height: 30px;
     border-radius: 50px;
     width: 100px;
+    background-color: rgb(234, 186, 124);
+}
+
+footer{
+    background-color: rgb(234, 186, 124);
 }
 
 .capsagmail{
@@ -120,4 +125,34 @@ button{
 }
 .gros{
     font-size: 30px;
+    margin-top: 0px;
+}
+
+.autor{
+    background-color: rgb(234, 186, 124);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.col{
+    margin-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+
+.col3{
+    width: 30%;
+    margin-left: 50px;
+}
+
+.col7{
+    width: 70%;
+}
+
+.nomargin{
+    margin: 0px;
 }
