@@ -14,7 +14,6 @@ header {
 nav {
     display: flex; 
     justify-content: left;
-    
 }
 
 hr{
@@ -69,6 +68,7 @@ footer{
     left: 70px;
     margin-left: 180px;
     padding-left: 10px;
+    overflow: auto;
 }
 .imatgefons {
     background-image: url("/imatges/fons.jpg");
@@ -124,7 +124,17 @@ footer{
     display: flex;
     justify-content: space-between;
     position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
 }
+
+@media screen and (max-widht: 600px){
+    .flex{
+        flex-direction: column;
+    }
+}
+
 .gros{
     font-size: 30px;
     margin-top: 0px;
